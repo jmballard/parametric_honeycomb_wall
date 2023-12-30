@@ -1,5 +1,5 @@
 # all stl files
-.stl
+*.stl
 
 # other files
 .pdf
