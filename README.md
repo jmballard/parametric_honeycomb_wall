@@ -1,4 +1,4 @@
-# parametric_honeycomb_wall
+# Parametric honeycomb storage wall addons
 
 ## Table of contents
 
