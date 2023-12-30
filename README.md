@@ -33,7 +33,9 @@ All projects will be posted on printables.com (Links TBC)
 
 You need to have OpenSCAD in your machine, and the library BOSL2 (https://github.com/BelfrySCAD/BOSL2?tab=readme-ov-file) for simplified OpenSCAD coding.
 
-I'm using the library from https://www.printables.com/model/260073-openscad-library-for-hsw-attachments that I saved in the folder 'requirements' to add the attachments to the honeycomb wall.
+I'm using the library from https://www.printables.com/model/260073-openscad-library-for-hsw-attachments to add the attachments to the honeycomb wall.
+
+Both libraries need to be installed in your OpenSCAD library directory for your platform.
 
 ## Files <a name="files"></a>
 
@@ -42,12 +44,9 @@ Here is the content of this repo:
 ```bash
 .
 ├── holders
-│   └── __init__.py
+│   └── parametric_plier_holder.scad
 ├── hooks
-│   └── plier_holder
-│       └── parametric_plier_holder.scad
-├── requirements
-│   └── hex plug library.scad (from https://www.printables.com/model/260073-openscad-library-for-hsw-attachments)
+│   └── __init__.py
 ├── .gitignore
 └── README.md
 ```
