@@ -46,7 +46,6 @@ Here is the content of this repo:
 ├── holders
 │   └── parametric_plier_holder.scad
 ├── hooks
-│   └── __init__.py
 ├── .gitignore
 └── README.md
 ```
