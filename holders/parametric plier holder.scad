@@ -5,15 +5,15 @@ include <hex plug library.scad> // for the HSW hooks, from https://www.printable
 
 /* [Global Parameters] */
 // width of the plier holder (inside)
-width_holder = 40;
+width_holder = 40; // [80]
 // length of the plier holder (inside)
-length_holder = 80;
+length_holder = 80; // [150]
 // height of the plier holder
-height_holder = 25;
+height_holder = 25; // [22:80]
 // thickness of the plier holder
-thickness_holder = 3;
-// angle holder on the left & right - in degree, between 10 & 90
-angle_holder = 60;
+thickness_holder = 3; // [1:10]
+// angle holder on the left & right - in degree
+angle_holder = 60; // [10:90]
 
 
 
