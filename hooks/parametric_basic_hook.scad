@@ -1,6 +1,5 @@
 // libraries to import
 include <BOSL2/std.scad>
-include <BOSL2/rounding.scad> // for rounding the holder
 include <hex plug library.scad> // for the HSW hooks, from https://www.printables.com/model/260073-openscad-library-for-hsw-attachments
 
 /* [Global Parameters] */
@@ -16,7 +15,7 @@ thickness_hook = 2; // [10]
 
 module hook() {
     /* 
-    This module creates a plier holder with 1 insert to the HSW
+    This module creates a basic hook with 1 insert to the HSW
     */
     union() {
         // the HSW insert
