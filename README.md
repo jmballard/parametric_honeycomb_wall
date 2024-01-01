@@ -45,6 +45,7 @@ Here is the content of this repo:
 .
 ├── holders
 │   ├── parametric_microSD_holder.scad
+│   ├── parametric_circular_holder.scad
 │   └── parametric_plier_holder.scad
 ├── hooks
 │   └── parametric_basic_hook.scad
@@ -58,7 +59,6 @@ List of possible ideas:
 
 - screwdriver holder (X screwdrivers, length, depth, etc)
 - triangular hook with isocele triangle (angle, length)  - for pliers etc
-- round holder (radius int & width) to contain a cylinder
 
 ## Credits <a name="credits"></a>
 
