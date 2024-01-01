@@ -5,7 +5,7 @@ include <hex plug library.scad> // for the HSW hooks, from https://www.printable
 
 /* [Global Parameters] */
 // number of micro SD cards
-microsd = 7; // [1:10]
+microsd = 2; // [1:10]
 
 module microsd_holder() {
     /* 
@@ -21,7 +21,7 @@ module microsd_holder() {
     // height of the equilateral triangles of the hegaxon
     height_triangle = sqrt(3 / 4 * size_hexagon^2);
     
-    length_holder = 4 * microsd + 6;
+    length_holder = 4 * microsd + 2;
 
     difference(){
         // the holder
@@ -32,9 +32,9 @@ module microsd_holder() {
         };
         
         // sd slots
-        for (i = [0:microsd]){
-            translate([0,4 * i + 3,20])
-            cuboid([10,2,10]);
+        for (i = [0:microsd-1]){
+            translate([0,4 * i + 3,16])
+            cuboid([11,1,10]);
         }
     }
 }
